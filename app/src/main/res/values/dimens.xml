@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">25sp</dimen>
+    <dimen name="textsize">20sp</dimen>
+    <dimen name="paddingTop">200sp</dimen>
+    <dimen name="normalpadding">25sp</dimen>
+</resources>

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SpeechRecognization</string>
+    <string name="start">Start</string>
+    <string name="intention">Intention....</string>
+    <string name="spoken_text">Spoken Text..</string>
 </resources>

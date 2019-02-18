@@ -6,34 +6,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="@dimen/padding"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start">
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@color/blue"
+        android:text="@string/start">
     </Button>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvSpokenText"
-        android:text="Spoken Text:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/tvSpokenText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:paddingTop="@dimen/paddingTop"
+        android:layout_gravity="center"
+        android:text="@string/spoken_text"
+        android:textSize="@dimen/textsize" />
+
+    <TextView
         android:id="@+id/tvIntention"
-        android:text="Intention"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:padding="@dimen/normalpadding"
+        android:text="@string/intention"
+        android:textSize="@dimen/textsize" />
 
 
 </LinearLayout>
